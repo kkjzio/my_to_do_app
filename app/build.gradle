@@ -49,6 +49,10 @@ android {
     namespace 'com.example.todoapp'
     buildToolsVersion '33.0.1'
     compileSdk 33
+    ndkVersion '27.0.12077973'
+    buildFeatures {
+        viewBinding true
+    }
 }
 
 dependencies {
@@ -64,6 +68,7 @@ dependencies {
     // Navigation Component
     implementation 'androidx.navigation:navigation-fragment-ktx:2.6.0'
     implementation 'androidx.navigation:navigation-ui-ktx:2.6.0'
+//    implementation 'com.android.support:design:27.1.1'
 
     // Room components
     implementation "androidx.room:room-runtime:2.5.2"
