@@ -34,6 +34,11 @@ class ListFragment : Fragment() {
             // Handle the click
             findNavController().navigate(R.id.action_listFragment_to_addFragment)
         }
+        view.findViewById<View>(R.id.floatingActionButton).setOnClickListener {
+            // Handle the click
+            findNavController().navigate(R.id.action_listFragment_to_updateFragment)
+        }
+
 
         return view
 
