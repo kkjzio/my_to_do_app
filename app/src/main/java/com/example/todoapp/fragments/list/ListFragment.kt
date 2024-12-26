@@ -3,6 +3,8 @@ package com.example.todoapp.fragments.list
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
+import android.view.Menu
+import android.view.MenuInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
@@ -39,6 +41,9 @@ class ListFragment : Fragment() {
             findNavController().navigate(R.id.action_listFragment_to_updateFragment)
         }
 
+        // menu
+        setHasOptionsMenu(true)
+
 
         return view
 
@@ -64,4 +69,7 @@ class ListFragment : Fragment() {
 //        return binding.root
     }
 
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        inflater.inflate(R.menu.list_fragment_menu, menu)
+    }
 }
