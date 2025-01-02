@@ -2,7 +2,7 @@ package com.example.todoapp.data
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.example.todoapp.data.model.ToDoData
+import com.example.todoapp.data.models.ToDoData
 
 
 @Dao
