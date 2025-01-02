@@ -11,9 +11,9 @@
     <string name="priority_high">紧急</string>
     <string name="priority_low">次要</string>
     <string name="delete_all">删除全部</string>
-    <string name="add">Add</string>
-    <string name="save">Save</string>
-    <string name="delete">Delete</string>
+    <string name="add">增加</string>
+    <string name="save">保存</string>
+    <string name="delete">删除</string>
 
     <string-array name="priorities">
         <item>紧急</item>
