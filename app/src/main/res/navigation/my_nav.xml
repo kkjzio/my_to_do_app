@@ -39,8 +39,8 @@
     <fragment
         android:id="@+id/updateFragment"
         android:name="com.example.todoapp.fragments.update.UpdateFragment"
-        android:label="更新"
-        tools:layout="@layout/fragment_update" >
+        android:label="新增/更新"
+        tools:layout="@layout/fragment_update">
         <action
             android:id="@+id/action_updateFragment_to_listFragment"
             app:destination="@id/listFragment"
